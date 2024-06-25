@@ -1,0 +1,41 @@
+.missao {
+    display: flex;
+    width: 100vw;
+    padding: 60px 0px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(
+      to left,
+      #667963,
+      #456c3d    
+    );
+    color: white;
+  }
+  
+  .missao h2 {
+    padding: 80px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+  
+  .missao img {
+    height: 500px;
+    width: 500px;
+    border-radius: 100px 0px 100px 0px;
+  }
+
+  @media (max-width: 1024px) {
+    .missao {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .missao h2 {
+        width: 350px;
+        padding: 0px;
+    }
+    .missao img {
+        height: 350px;
+        width: 350px;
+        margin: 60px 0px;
+    }
+  }

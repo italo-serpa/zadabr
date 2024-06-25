@@ -1,0 +1,48 @@
+.objetivos {
+    padding: 40px 0px;
+}
+
+.objetivo1 {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.objetivo2 {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+.objetivos img {
+    width: 500px;
+}
+
+.objetivos h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .objetivo1 {
+        flex-direction: column;
+        width: auto;
+    }
+    .objetivo2 {
+        flex-direction: column;
+        padding-top: 40px;
+        width: auto;
+    }
+    .objetivos img {
+        width: 300px;
+    }
+    .objetivos h2 {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,123 @@
+.produtos {
+    padding: 60px 0px;
+}
+
+.produtos img {
+    width: 300px;
+}
+
+.produtos h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.destaque {
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.destaque__texto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.destaque__texto h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.destaque__texto p {
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+}
+
+.destaque__compre {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0 auto;
+    background-image: linear-gradient(
+      to top,
+      #7f987b,
+      #456c3d    
+    );
+}
+
+.destaque__compre img {
+    width: 280px;
+}
+
+.hw {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 40px;
+}
+
+.destaque img {
+    width: 400px;
+}
+
+.destaqueimg_wrapper {
+    display: flex;
+}
+
+@media (max-width:1024px) {
+    .produtos img {
+        width: 180px;
+        padding-top: 40px;
+    }
+    .slider img {
+        padding: 0px;
+    }
+    .destaque {
+        flex-direction: column;
+    }
+    .destaque img {
+        width: 300px;
+        padding: 40px 0px;
+    }
+    .slider img {
+        width: 100px;
+    }
+    .destaque__compre {
+        flex-direction: column;
+    }
+    .produtos h2 {
+        padding-bottom: 0px;
+    }
+    .wrapper {
+        height: 150px;
+    }
+    .destaque__texto {
+        padding-left: 0px;
+    }
+    .hw {
+        font-size: 1.1rem;
+    }
+    .destaque__compre img {
+        width: 140px;
+        padding-top: 0px;
+    }
+    .destaque__compre {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
